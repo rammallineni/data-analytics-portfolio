@@ -1,0 +1,19 @@
+# Virtual env & local DB
+.venv/
+da4.db
+
+# Jupyter noise
+**/.ipynb_checkpoints/
+
+# Env files / secrets
+.env
+
+# Data files (keep big files out of git)
+**/data/**/*.csv
+**/data/**/*.xlsx
+**/data/**/*.parquet
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
