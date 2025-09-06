@@ -1,0 +1,24 @@
+# Core analytics
+pandas>=2.2
+numpy>=1.26
+pyarrow>=16.0
+
+# Viz & notebooks
+jupyterlab>=4.2
+matplotlib>=3.8
+plotly>=5.22
+
+# ML (for churn project)
+scikit-learn>=1.5
+
+# Databases
+SQLAlchemy>=2.0
+sqlite-utils>=3.36
+psycopg2-binary>=2.9    # only needed if you use Postgres later
+
+# Quality of life
+python-dotenv>=1.0
+openpyxl>=3.1
+black>=24.4
+isort>=5.13
+pytest>=8.2
